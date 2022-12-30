@@ -11,8 +11,8 @@ CQRS with Kafka
 ### Docker compose
 ```
   cd docker
-  docker-compose up
-  docker-compose down
+  docker-compose -f kafka-compose.yaml up -d
+  docker-compose -f kafka-compose.yaml down
 ```
 
 
