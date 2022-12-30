@@ -3,7 +3,6 @@ CQRS with Kafka
 
 ## Docker
  
-
 ### Create Docker Network - techbankNet 
 ```
   docker network create --attachable -d bridge techbankNet
@@ -15,3 +14,8 @@ CQRS with Kafka
   docker-compose up
   docker-compose down
 ```
+
+
+## SpringBoot Projects
+
+ - Main project under ./projects/bank-account
