@@ -11,6 +11,7 @@ CQRS with Kafka
 
 ### Docker compose
 ```
+  cd docker
   docker-compose up
   docker-compose down
 ```
