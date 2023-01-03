@@ -44,7 +44,7 @@ public abstract class AggregateRoot {
             method.setAccessible(true);
             method.invoke(this, event);
         } catch (final NoSuchMethodException e) {
-            logger.log(Level.WARNING, MessageFormat.format("The apply message was not found in the aggregate for {0}", event.getClass().getName()));
+            logger.log(Level.WARNING, MessageFormat.format("The apply method was not found in the aggregate for {0}", event.getClass().getName()));
         } catch (final Exception e) {
             logger.log(Level.SEVERE, "Error applying event to aggregate.");
         } finally {
